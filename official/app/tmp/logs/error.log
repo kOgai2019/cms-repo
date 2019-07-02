@@ -1,0 +1,1768 @@
+2019-07-01 05:20:24 Error: [MissingViewException] View file "Top/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Top/index.ctp',
+)
+Request URL: /official/top
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(470): View->_getViewFileName('Top/index')
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-07-01 05:25:15 Error: [ArgumentCountError] Too few arguments to function Article::getPagenatorSetting(), 0 passed in /Users/sakura_yoko/Desktop/app/official/app/Controller/TopController.php on line 9 and exactly 1 expected
+Request URL: /official/top
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/Controller/TopController.php(9): Article->getPagenatorSetting()
+#1 [internal function]: TopController->index()
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(TopController), Array)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 05:25:22 Error: [ArgumentCountError] Too few arguments to function Article::getPagenatorSetting(), 0 passed in /Users/sakura_yoko/Desktop/app/official/app/Controller/TopController.php on line 9 and exactly 1 expected
+Request URL: /official/top
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/Controller/TopController.php(9): Article->getPagenatorSetting()
+#1 [internal function]: TopController->index()
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(TopController), Array)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 05:26:09 Error: [ArgumentCountError] Too few arguments to function Article::getPagenatorSetting(), 0 passed in /Users/sakura_yoko/Desktop/app/official/app/Controller/TopController.php on line 10 and exactly 1 expected
+Request URL: /official/top
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/Controller/TopController.php(10): Article->getPagenatorSetting()
+#1 [internal function]: TopController->index()
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(TopController), Array)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 05:29:01 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /official/%3Cpre%20class=
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:30:15 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /official/%3Cpre%20class=
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:32:24 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /official/%3Cpre%20class=
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:33:05 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /official/%3Cpre%20class=
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:33:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/MATERIAL_PATHnot_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:34:15 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /official/%3Cpre%20class=
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:34:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/MATERIAL_PATHnot_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:36:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:37:04 Error: [MissingControllerException] Controller class ArticleController could not be found.
+Exception Attributes: array (
+  'class' => 'ArticleController',
+  'plugin' => NULL,
+)
+Request URL: /official/article/view/92
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:37:48 Error: [MissingControllerException] Controller class ArticleController could not be found.
+Exception Attributes: array (
+  'class' => 'ArticleController',
+  'plugin' => NULL,
+)
+Request URL: /official/article/view/92
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:38:06 Error: [MissingControllerException] Controller class ArticleController could not be found.
+Exception Attributes: array (
+  'class' => 'ArticleController',
+  'plugin' => NULL,
+)
+Request URL: /official/article/view/91
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:38:18 Error: [MissingControllerException] Controller class ArticleController could not be found.
+Exception Attributes: array (
+  'class' => 'ArticleController',
+  'plugin' => NULL,
+)
+Request URL: /official/article/view/92
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 05:40:55 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /official/article/view/92
+Stack Trace:
+#0 [internal function]: App::load('ArticleControll...')
+#1 [internal function]: spl_autoload_call('ArticleControll...')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(266): class_exists('ArticleControll...')
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 05:41:02 Error: [MissingViewException] View file "Article/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Article/view.ctp',
+)
+Request URL: /official/article/view/92
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(470): View->_getViewFileName('Article/view')
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-07-01 05:41:03 Error: [MissingViewException] View file "Article/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Article/view.ctp',
+)
+Request URL: /official/article/view/92
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(470): View->_getViewFileName('Article/view')
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-07-01 05:41:19 Error: [MissingViewException] View file "Article/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Article/view.ctp',
+)
+Request URL: /official/article/view/92
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(470): View->_getViewFileName('Article/view')
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-07-01 05:47:20 Error: [Error] Call to a member function findAllByArticleId() on null
+Request URL: /official/article/view/92
+Stack Trace:
+#0 [internal function]: ArticleController->view('92')
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-07-01 05:47:23 Error: [Error] Call to a member function findAllByArticleId() on null
+Request URL: /official/article/view/91
+Stack Trace:
+#0 [internal function]: ArticleController->view('91')
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-07-01 05:47:32 Error: [Error] Call to a member function findByAllArticleId() on null
+Request URL: /official/article/view/91
+Stack Trace:
+#0 [internal function]: ArticleController->view('91')
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-07-01 05:55:52 Error: [ArgumentCountError] Too few arguments to function Comment::saveComment(), 1 passed in /Users/sakura_yoko/Desktop/app/official/app/Controller/ArticleController.php on line 13 and exactly 2 expected
+Request URL: /official/article/view/91
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/Controller/ArticleController.php(13): Comment->saveComment(Array)
+#1 [internal function]: ArticleController->view('91')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 05:57:12 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /official/article/view/91
+Stack Trace:
+#0 [internal function]: App::load('Comment')
+#1 [internal function]: spl_autoload_call('Comment')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Comment')
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('Comment')
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(376): Controller->loadModel('Comment')
+#5 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(414): Controller->__isset('Comment')
+#6 /Users/sakura_yoko/Desktop/app/official/app/Controller/ArticleController.php(13): Controller->__get('Comment')
+#7 [internal function]: ArticleController->view('91')
+#8 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#9 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#11 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-07-01 06:12:26 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /official/view/90
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(473): View->_render('/Users/sakura_y...')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 14:46:25 Error: [MissingControllerException] Controller class AccountController could not be found.
+Exception Attributes: array (
+  'class' => 'AccountController',
+  'plugin' => NULL,
+)
+Request URL: /official/account/receptionist
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:46:27 Error: [MissingControllerException] Controller class AccountController could not be found.
+Exception Attributes: array (
+  'class' => 'AccountController',
+  'plugin' => NULL,
+)
+Request URL: /official/account/login
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:47:01 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /official/
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(546): View->_render('/Users/sakura_y...')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(481): View->renderLayout('<table>\n\t\t\t<tr>...', 'default')
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#6 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-07-01 14:47:01 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2019-07-01 14:47:01 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /official/
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-07-01 14:48:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:48:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:50:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:50:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:50:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:50:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:51:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:52:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:52:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:52:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:52:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:53:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:53:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:55:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:55:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:56:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:56:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:56:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:56:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:56:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:57:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:57:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:57:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 14:59:04 Error: [ParseError] syntax error, unexpected '?'
+Request URL: /official/
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(473): View->_render('/Users/sakura_y...')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 14:59:16 Error: [ParseError] syntax error, unexpected '?'
+Request URL: /official/
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(473): View->_render('/Users/sakura_y...')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 14:59:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:00:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:00:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:00:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:00:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:00:39 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /official/%3Cpre%20class=
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:01:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:02:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:03:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:03:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:03:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:03:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:03:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /official/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:03:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /official/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:04:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:04:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /official/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:04:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /official/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:04:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:05:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:05:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /official/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:05:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /official/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:05:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:06:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /official/img/material/not_found.png
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 15:06:29 Error: [MissingActionException] Action ArticleController::input() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArticleController',
+  'action' => 'input',
+)
+Request URL: /official/article/input/articleId:139
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#2 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-01 15:10:19 Error: [MissingActionException] Action ArticleController::input() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArticleController',
+  'action' => 'input',
+)
+Request URL: /official/article/input/articleId:144
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#2 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-01 15:10:25 Error: [MissingActionException] Action ArticleController::input() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArticleController',
+  'action' => 'input',
+)
+Request URL: /official/article/input/articleId:143
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#2 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-01 15:10:46 Error: [MissingActionException] Action ArticleController::input() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArticleController',
+  'action' => 'input',
+)
+Request URL: /official/article/input/articleId:143
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#2 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-01 15:10:48 Error: [MissingActionException] Action ArticleController::input() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArticleController',
+  'action' => 'input',
+)
+Request URL: /official/article/input/articleId:144
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#2 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-01 15:10:53 Error: [MissingActionException] Action ArticleController::input() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArticleController',
+  'action' => 'input',
+)
+Request URL: /official/article/input/articleId:143
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#2 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-01 15:11:09 Error: [MissingActionException] Action ArticleController::input() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArticleController',
+  'action' => 'input',
+)
+Request URL: /official/article/input/articleId:143
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#2 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-01 15:58:32 Error: [ParseError] syntax error, unexpected '(', expecting ';'
+Request URL: /official/view/152
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(473): View->_render('/Users/sakura_y...')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-01 16:04:26 Error: [Error] Call to undefined function echoh()
+Request URL: /official/view/144
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(971): include()
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(473): View->_render('/Users/sakura_y...')
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#6 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-07-01 16:04:36 Error: [Error] Call to undefined function ecoh()
+Request URL: /official/view/144
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(971): include()
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(473): View->_render('/Users/sakura_y...')
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#6 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-07-01 18:46:02 Error: [MissingControllerException] Controller class VieaController could not be found.
+Exception Attributes: array (
+  'class' => 'VieaController',
+  'plugin' => NULL,
+)
+Request URL: /official/viea
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 21:24:12 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/164/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 21:24:48 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/164/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 21:25:14 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/164/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 21:25:19 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/164/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 21:25:22 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/164/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 21:25:56 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/164/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-01 21:26:31 Error: [MissingControllerException] Controller class 1Controller could not be found.
+Exception Attributes: array (
+  'class' => '1Controller',
+  'plugin' => NULL,
+)
+Request URL: /official/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-02 03:07:04 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/166/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-02 03:07:38 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/166/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-02 03:08:00 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /official/view/166/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:32 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /official/
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(933): View->_evaluate('/Users/sakura_y...', Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/View/View.php(473): View->_render('/Users/sakura_y...')
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopController), Object(CakeRequest))
+#5 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:22:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 27]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 27
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:27 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 09:23:36 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/sakura_yoko/Desktop/app/official/app/View/Top/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Top/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2019-07-02 12:56:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created' in order clause is ambiguous
+Request URL: /official/view/1
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Article...', Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Article...', Array, Array)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Article...', Array)
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Article), Array)
+#5 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/sakura_yoko/Desktop/app/official/app/Model/Article.php(51): Model->find('all', Array)
+#7 /Users/sakura_yoko/Desktop/app/official/app/Controller/ArticleController.php(30): Article->getUserArticle('1')
+#8 [internal function]: ArticleController->view('1')
+#9 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#10 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#12 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-02 12:57:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created' in order clause is ambiguous
+Request URL: /official/view/5
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Article...', Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Article...', Array, Array)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Article...', Array)
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Article), Array)
+#5 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/sakura_yoko/Desktop/app/official/app/Model/Article.php(51): Model->find('all', Array)
+#7 /Users/sakura_yoko/Desktop/app/official/app/Controller/ArticleController.php(30): Article->getUserArticle('1')
+#8 [internal function]: ArticleController->view('5')
+#9 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#10 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#12 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-02 12:57:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created' in order clause is ambiguous
+Request URL: /official/view/5
+Stack Trace:
+#0 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Article...', Array)
+#2 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Article...', Array, Array)
+#3 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Article...', Array)
+#4 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Article), Array)
+#5 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Users/sakura_yoko/Desktop/app/official/app/Model/Article.php(51): Model->find('all', Array)
+#7 /Users/sakura_yoko/Desktop/app/official/app/Controller/ArticleController.php(30): Article->getUserArticle('1')
+#8 [internal function]: ArticleController->view('5')
+#9 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#10 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/sakura_yoko/Desktop/app/official/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArticleController), Object(CakeRequest))
+#12 /Users/sakura_yoko/Desktop/app/official/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
